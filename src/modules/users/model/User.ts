@@ -15,6 +15,7 @@ class User {
 
   constructor() {
     this.admin = false;
+    this.updated_at = new Date();
     if (!this.id) {
       this.id = uuidV4();
     }
